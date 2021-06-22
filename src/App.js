@@ -1,3 +1,5 @@
+import Post from "./components/post/Post";
+
 let posts = [
 	{
 		"userId": 1,
@@ -66,7 +68,7 @@ console.log(posts);
 export default function App() {
 	return (
 		<div>
-
+			<Post items={posts}/>
 		</div>
 	);
 }
